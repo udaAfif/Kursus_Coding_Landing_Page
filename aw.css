@@ -1,0 +1,229 @@
+body {
+    margin: 0;
+    font-family: "Lucida Grande";
+    
+}
+.container{
+    max-width: 1170px;
+    width:95vw;
+    padding-left:15px;
+    padding-right:15px;
+    margin-left:auto;
+    margin-right:auto;
+    
+}
+
+.top-wrapper{
+    padding-top:180px;
+    padding-bottom:100px;
+    color:white;
+    background-image:url(asset/iku.jpg) ;
+    background-size: cover;
+}
+
+h1{
+opacity: 0.7;
+font-size:44px;
+letter-spacing:5px;
+margin-bottom:10px;
+}
+
+p{
+    opacity:0.7;
+    margin-bottom:3px;
+}
+
+.btn{
+padding-top:12px;
+padding-bottom:12px;
+padding-left:24px;
+padding-right:24px;
+color:white;
+display:inline-block;
+opacity:0.8;
+border-radius: 100px;
+
+}
+
+.menu-icon{
+    color: white;
+    float: right;
+    
+}
+
+.signup{
+    background-color: #239b76;
+}
+
+.facebook{
+    background-color: #3b5998;
+    margin-right: 10px;
+}
+
+.twitter{
+    background-color: #55acee;
+}
+
+.btn-wrapper{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.btn-wrapper p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.btn:hover{
+    opacity: 1;
+}
+
+.fa{
+    margin-right: 10px;
+}
+
+header{
+    height: 65px;
+    width: 100%;
+    background-color: rgba(34, 49, 52, 0.9);
+    position: fixed;
+    top: 0%;
+    z-index: 10;
+
+}
+
+.logo{
+ width: 124px;   
+ margin-top: 20px;
+}
+
+.header-right{
+float: right;
+background-color: rgba(255, 255, 255, 0.3);
+transition: all 1s;
+
+
+}
+
+.header-right:hover{
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.header-left{
+    float: left;
+}
+
+.header-right a{
+line-height: 65px;
+padding-left: 25px;
+padding-right: 25px;
+color: white;
+display: block;
+}
+
+.clear{
+    clear: left;
+}
+
+.lesson-wrapper{
+    
+    padding-bottom: 80px;
+    background-color: #f7f7f7;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.heading h2{
+    font-weight: normal;
+}
+
+.heading{
+    padding-top: 60px;
+    padding-bottom: 30px;
+    color: #5f5d60;
+    float: left;
+}
+
+.lesson{
+    float:left ;
+    width: 25%;
+    position: relative;
+
+}
+
+.lesson-icon{
+    position: relative;
+}
+
+.lesson-icon p{
+    position: absolute;
+    top: 70px;
+    width: 100%;
+    color: whitesmoke;
+    
+}
+
+.txt-contents{
+    width:80%;
+    display: inline-block;
+    margin-top:20px;
+    font-size:15px;
+    color:#b3aeb5;
+}
+
+.message{
+    background-color:#5dca88;
+    padding-top:15px;
+    padding-bottom: 15px;
+    padding-left:40px;
+    padding-right:40px;
+    border-radius: 30px;
+    box-shadow: 0 7px #1a7940;
+}
+
+.message:active{
+    box-shadow:none;
+    position: relative;
+    top: 7px;
+}
+
+
+.heading{
+    width: 100%;
+}
+
+.heading h3{
+    font-weight:normal;
+}
+
+.message:hover{
+    background-color: tomato;
+    transition: all 0.8s;
+    
+}
+
+.message-wrapper{
+    border-bottom:1px solid rgb(175, 168, 168);
+    padding-bottom:80px;
+    text-align: center;
+    width: 90vw;
+    cursor: pointer;
+}
+
+footer img{
+    width: 125px;
+}
+
+footer p{
+    color: #b3aeb5;
+    font-size: 12px;
+}
+
+footer{
+    padding-top: 30px;
+}
+
+*{
+    box-sizing: border-box;
+}
